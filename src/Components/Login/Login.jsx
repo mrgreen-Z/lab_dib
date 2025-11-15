@@ -14,8 +14,8 @@ export default function Login() {
     console.log("Login Data:", form);
     localStorage.removeItem("toekn")
     localStorage.setItem("token", JSON.stringify(form))
-   if (form.email == "admin@gmail.com" &&
-            form.password == "admin"
+   if (form.email == "maged.atef.arteen@gmail.com" &&
+            form.password == "1111"
         ){
             moveTo('/layout')
         }
@@ -24,7 +24,7 @@ export default function Login() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
-<p>email: admin@gmail.com, password:admin</p>
+
       <form
         onSubmit={handleSubmit}
         className="bg-white w-full max-w-sm p-6 rounded-xl shadow-lg space-y-4"
@@ -43,7 +43,7 @@ export default function Login() {
             required
           />
         </div>
-
+  <p>maged.atef.arteen@gmail.com</p>
         <div className="space-y-1">
           <label className="text-sm font-medium">Password</label>
           <input
@@ -56,7 +56,7 @@ export default function Login() {
             required
           />
         </div>
-
+<p>1111</p>
         <button
           type="submit"
           className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
@@ -67,4 +67,5 @@ export default function Login() {
     </div>
   );
 }
+
 
