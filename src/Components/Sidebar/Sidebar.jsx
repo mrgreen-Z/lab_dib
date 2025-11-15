@@ -153,7 +153,7 @@ export default function Sidebar(props) {
                     <img src={userImg} alt="user" className="w-10 h-10 rounded-full ring-2 ring-blue-500" />
                     <div className="flex-1 min-w-0">
                         <div className="flex-1 min-w-0">
-                            <p className="text-sm font-medium text-salte-800 dark:text-white truncate cursor-pointer">Rajaee Shurrab</p>
+                            <p className="text-sm font-medium text-salte-800 dark:text-white truncate cursor-pointer">userAdmin </p>
                             <p className="text-xs text-slate-500 dark:text-slate-400 truncate">Adminstrator</p>
                         </div>
                     </div>
@@ -162,4 +162,5 @@ export default function Sidebar(props) {
 
 
         </div>)
+
 }
